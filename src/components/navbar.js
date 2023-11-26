@@ -7,19 +7,25 @@ const NavbarSec = () => {
     <>
       <Navbar className="justify-content-center" bg="dark" data-bs-theme="dark">
         <Nav className="mx-auto">
-          <Nav.Item>
+          <Nav.Item className="mx-3">
             <Nav.Link>
-              <Link to="/home">Home</Link>
+              <Link className="text-decoration-none text-white-50" to="/home">
+                Home
+              </Link>
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item className="mx-3">
             <Nav.Link>
-              <Link to="/about">About</Link>
+              <Link className="text-decoration-none text-white-50" to="/about">
+                About
+              </Link>
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
+          <Nav.Item className="mx-3">
             <Nav.Link>
-              <Link to="/contact">Contact</Link>
+              <Link className="text-decoration-none text-white-50" to="/contact">
+                Contact
+              </Link>
             </Nav.Link>
           </Nav.Item>
         </Nav>
